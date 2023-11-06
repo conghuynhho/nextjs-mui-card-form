@@ -4,3 +4,6 @@
 
 # typescript
 *.tsbuildinfo
+
+node_modules
+#.idea
