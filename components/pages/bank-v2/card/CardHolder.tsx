@@ -5,7 +5,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group'
 import { CardBreakpoints, slideFadeRight, slideFadeUpCss } from '../const'
 import { CSSTransitionProps } from 'react-transition-group/CSSTransition'
 import { useTranslation } from 'next-i18next'
-import { nsBankTran } from '../../../../pages/bank'
+import { nsBankTran } from '../../../../pages/index'
 
 function CardHolder() {
   const {control} = useFormContext()

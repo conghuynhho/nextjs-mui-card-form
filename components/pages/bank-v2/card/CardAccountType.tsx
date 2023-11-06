@@ -1,5 +1,5 @@
 import { Controller } from 'react-hook-form'
-import { nsBankTran } from '../../../../pages/bank'
+import { nsBankTran } from 'pages/index'
 import { useTranslation } from 'next-i18next'
 import { css } from '@emotion/react'
 import { handleRemoveFocusCardStyles, handleSetFocusCardStyles } from '../const'

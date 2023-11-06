@@ -3,7 +3,7 @@ import BankNameInput from './BankNameInput'
 import BankBranchesInput from './BankBranchesInput'
 import {CardFormInputLabel} from '../../AccountForm'
 import {useTranslation} from 'next-i18next'
-import {nsBankTran} from '../../../../../pages/bank'
+import {nsBankTran} from 'pages/index'
 
 function Index() {
   const { t } = useTranslation(nsBankTran)

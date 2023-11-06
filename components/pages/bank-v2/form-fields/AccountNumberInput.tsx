@@ -1,6 +1,6 @@
 import { FormControl, FormHelperText, OutlinedInput } from '@mui/material'
 import { Controller, useFormContext } from 'react-hook-form'
-import { nsBankTran, numbersValidate } from '../../../../pages/bank'
+import { nsBankTran, numbersValidate } from 'pages/index'
 import { useTranslation } from 'next-i18next'
 import { css } from '@emotion/react'
 import { KeyboardEvent } from 'react'

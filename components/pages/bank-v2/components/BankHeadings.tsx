@@ -2,7 +2,7 @@ import { css } from '@emotion/react'
 import { Stack, Typography } from '@mui/material'
 import { CheckCircle } from '@mui/icons-material'
 import { useTranslation } from 'next-i18next'
-import { nsBankTran } from '../../../../pages/bank'
+import { nsBankTran } from 'pages/index'
 import { useAppSelector } from '../../../../store/hooks'
 import { nsBank } from '../../../../store/bankSlice'
 

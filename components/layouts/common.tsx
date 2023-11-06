@@ -9,7 +9,6 @@ import { ReactNode, useMemo } from 'react'
 // logo components
 
 // next
-import '@ggj/change-language/dist/lib-change-language.css'
 import { useI18nContext } from 'contexts/I18nContext'
 import { useTranslation } from 'next-i18next'
 import getConfig from 'next/config'

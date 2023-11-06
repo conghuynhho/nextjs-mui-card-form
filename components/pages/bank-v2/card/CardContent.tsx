@@ -1,5 +1,5 @@
 import { css } from '@emotion/react'
-import { nsBankTran } from '../../../../pages/bank'
+import { nsBankTran } from 'pages/index'
 import { useTranslation } from 'next-i18next'
 import CardHolder from './CardHolder'
 import { CardBreakpoints } from '../const'

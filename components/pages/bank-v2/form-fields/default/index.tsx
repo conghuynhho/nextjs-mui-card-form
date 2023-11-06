@@ -1,7 +1,7 @@
 import {Box, FormControl, FormHelperText, OutlinedInput} from '@mui/material'
 import {CardFormInputLabel} from '../../AccountForm'
 import {Controller, useFormContext} from 'react-hook-form'
-import {nsBankTran} from '../../../../../pages/bank'
+import {nsBankTran} from 'pages/index'
 import {useTranslation} from 'next-i18next'
 import AccountTypeInput from './AccountTypeInput'
 import {idRefCardBankName} from '../../card/CardTop'

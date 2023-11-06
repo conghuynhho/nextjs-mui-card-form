@@ -1,13 +1,13 @@
 import { css } from '@emotion/react'
 import { ggjServerSideTranslations } from 'common/i18nUtils'
 import { BackButton } from 'components/common'
+import BankV2 from 'components/pages/bank-v2'
 import { useTranslation } from 'next-i18next'
 import Head from 'next/head'
 import { NextRequest } from 'next/server'
 import { useEffect } from 'react'
 import { reducerManager, sw } from 'store'
 import slice, { nsBank } from 'store/bankSlice'
-import BankV2 from '../components/pages/bank-v2'
 
 export const nsBankTran = ['components@bank', 'common@validate']
 

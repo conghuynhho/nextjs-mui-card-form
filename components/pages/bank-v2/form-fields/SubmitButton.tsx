@@ -1,7 +1,7 @@
 import Button from '@mui/material/Button'
 import { css } from '@emotion/react'
 import { useTheme } from '@mui/material/styles'
-import { nsBankTran } from '../../../../pages/bank'
+import { nsBankTran } from '../../../../pages/index'
 import { useTranslation } from 'next-i18next'
 import { actions, IBankInfo, updateBankInfo } from '../../../../store/bankSlice'
 import { loadingOffHandler, loadingOnHandler } from '../../../../contexts/LoadingContext'
@@ -24,7 +24,7 @@ function SubmitButton() {
     try {
       loadingOnHandler()
       const res = await updateBankInfo([data])
-      if (res.error) {
+      if (res?.error) {
         toastHandler({
           type: 'error',
         })

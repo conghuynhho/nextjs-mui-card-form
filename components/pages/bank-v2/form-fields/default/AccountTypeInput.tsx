@@ -1,6 +1,6 @@
 import { FormControl, FormControlLabel, Radio, RadioGroup } from '@mui/material'
 import { Controller, useFormContext } from 'react-hook-form'
-import { nsBankTran } from '../../../../../pages/bank'
+import { nsBankTran } from 'pages/index'
 import { useTranslation } from 'next-i18next'
 import { useAppDispatch } from '../../../../../store/hooks'
 import { actions } from '../../../../../store/bankSlice'

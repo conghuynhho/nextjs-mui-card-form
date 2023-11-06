@@ -78,7 +78,7 @@ const slice = createSlice({
   },
 })
 
-export const updateBankInfo = async (data: IBankInfo[]) => {
+export const updateBankInfo: any = async (data: IBankInfo[]) => {
   console.log(data)
   return {}
 }
