@@ -6,4 +6,4 @@
 *.tsbuildinfo
 
 node_modules
-#.idea
+.idea
