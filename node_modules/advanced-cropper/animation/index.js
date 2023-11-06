@@ -1,0 +1,74 @@
+var timingFunctions = {
+    linear: function (t) {
+        return t;
+    },
+    'ease-in': function (t) {
+        return Math.pow(t, 1.675);
+    },
+    'ease-out': function (t) {
+        return 1 - Math.pow(1 - t, 1.675);
+    },
+    'ease-in-out': function (t) {
+        return 0.5 * (Math.sin((t - 0.5) * Math.PI) + 1);
+    },
+};
+var Animation = /** @class */ (function () {
+    function Animation() {
+        this.active = false;
+    }
+    Animation.prototype.start = function (animation) {
+        var _a;
+        this.onStart = animation.onStart;
+        this.onProgress = animation.onProgress;
+        this.onStop = animation.onStop;
+        if (!this.active) {
+            (_a = this.onStart) === null || _a === void 0 ? void 0 : _a.call(this);
+        }
+        if (this.id) {
+            window.cancelAnimationFrame(this.id);
+        }
+        this.startTime = performance.now();
+        this.timingFunction = animation.timingFunction;
+        this.endTime = this.startTime + animation.duration;
+        this.active = true;
+        this.animate();
+    };
+    Animation.prototype.animate = function () {
+        var _this = this;
+        if (this.startTime && this.endTime) {
+            var timingFunction = timingFunctions[this.timingFunction];
+            if (!timingFunction) {
+                if (process.env.NODE_ENV !== 'production') {
+                    console.warn("[Animation] The timing function '" + timingFunction + "' is not supported. Available timing function: 'linear', 'ease-in', 'ease-in-out', 'ease-out'. Reset to 'ease-out'.");
+                }
+                timingFunction = timingFunctions['ease-out'];
+            }
+            var percent = 1 - (this.endTime - performance.now()) / (this.endTime - this.startTime);
+            var progress = Math.min(1, timingFunction(percent));
+            if (this.onProgress) {
+                this.onProgress(progress);
+            }
+            if (percent < 1) {
+                this.id = window.requestAnimationFrame(function () { return _this.animate(); });
+            }
+            else {
+                this.stop();
+            }
+        }
+        else {
+            this.stop();
+        }
+    };
+    Animation.prototype.stop = function () {
+        this.active = false;
+        if (this.id) {
+            window.cancelAnimationFrame(this.id);
+        }
+        if (this.onStop) {
+            this.onStop();
+        }
+    };
+    return Animation;
+}());
+
+export { Animation };

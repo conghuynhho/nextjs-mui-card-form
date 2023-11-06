@@ -1,0 +1,69 @@
+.advanced-cropper-simple-line {
+  border-color: rgba(255, 255, 255, 0.7); }
+  .advanced-cropper-simple-line--east {
+    border-right-width: 2px; }
+  .advanced-cropper-simple-line--west {
+    border-left-width: 2px; }
+  .advanced-cropper-simple-line--south {
+    border-bottom-width: 2px; }
+  .advanced-cropper-simple-line--north {
+    border-top-width: 2px; }
+  .advanced-cropper-simple-line--hover {
+    border-color: white; }
+
+.advanced-cropper-bounding-box__handler {
+  width: 24px;
+  height: 24px; }
+  .advanced-cropper-bounding-box__handler--west-north {
+    -webkit-transform: translate(-5px, -5px);
+            transform: translate(-5px, -5px); }
+  .advanced-cropper-bounding-box__handler--east-south {
+    -webkit-transform: translate(-19px, -19px);
+            transform: translate(-19px, -19px); }
+  .advanced-cropper-bounding-box__handler--west-south {
+    -webkit-transform: translate(-5px, -19px);
+            transform: translate(-5px, -19px); }
+  .advanced-cropper-bounding-box__handler--east-north {
+    -webkit-transform: translate(-19px, -5px);
+            transform: translate(-19px, -5px); }
+
+.advanced-cropper-simple-handler {
+  display: block;
+  position: relative;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+  border: none;
+  background: currentColor;
+  top: auto;
+  left: auto;
+  height: 0px;
+  width: 0px;
+  opacity: 0; }
+  .advanced-cropper-simple-handler--west-north, .advanced-cropper-simple-handler--east-south, .advanced-cropper-simple-handler--west-south, .advanced-cropper-simple-handler--east-north {
+    display: block;
+    height: 16px;
+    width: 16px;
+    background: none;
+    opacity: 1; }
+  .advanced-cropper-simple-handler--west-north {
+    border-left: solid 3px currentColor;
+    border-top: solid 3px currentColor; }
+  .advanced-cropper-simple-handler--east-south {
+    border-right: solid 3px currentColor;
+    border-bottom: solid 3px currentColor; }
+  .advanced-cropper-simple-handler--west-south {
+    border-left: solid 3px currentColor;
+    border-bottom: solid 3px currentColor; }
+  .advanced-cropper-simple-handler--east-north {
+    border-right: solid 3px currentColor;
+    border-top: solid 3px currentColor; }
+  .advanced-cropper-simple-handler--hover {
+    opacity: 1; }
+
+.advanced-cropper-circle-stencil {
+  border-color: rgba(255, 255, 255, 0.4); }
+
+.advanced-cropper-stencil-grid {
+  color: rgba(255, 255, 255, 0.5); }

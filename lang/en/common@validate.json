@@ -1,0 +1,1 @@
+{"required-bankName":"Bank name is required.","required-bankBranchName":"Branch name is required.","required-accountNumber":"Account number is required.","minLength-accountNumber":"Only numbers can be used for the account number.","required-accountHolder":"Account name is required.","pattern-accountNumber":"Only numbers can be used for the account number."}

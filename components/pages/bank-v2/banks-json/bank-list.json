@@ -1,0 +1,175 @@
+[
+  {
+    "bank_name": "Agribank - NH NN & PTNT Viet Nam",
+    "spm_bank_id": 1,
+    "id": 0
+  },
+  {
+    "bank_name": "BIDV - NH Dau tu & Phat trien Viet Nam",
+    "spm_bank_id": 2,
+    "id": 0
+  },
+  {
+    "bank_name": "VCB - NH TMCP Ngoai Thuong Viet Nam",
+    "spm_bank_id": 3,
+    "id": 0
+  },
+  {
+    "bank_name": "Vietinbank - NH Cong Thuong Viet Nam",
+    "spm_bank_id": 4,
+    "id": 0
+  },
+  { "bank_name": "ABBank - NHTMCP An Binh", "spm_bank_id": 5, "id": 0 },
+  { "bank_name": "ACB - NH TMCP A Chau", "spm_bank_id": 6, "id": 0 },
+  { "bank_name": "Bac A bank - NHTMCP Bac A", "spm_bank_id": 7, "id": 0 },
+  { "bank_name": "BaoViet Bank - NH TMCP Bao Viet", "spm_bank_id": 8, "id": 0 },
+  { "bank_name": "Dong A Bank - NHTMCP Dong A", "spm_bank_id": 9, "id": 0 },
+  {
+    "bank_name": "Eximbank - NHTMCP Xuat Nhap Khau",
+    "spm_bank_id": 10,
+    "id": 0
+  },
+  {
+    "bank_name": "GPBank - NHTMCP Dau khi Toan cau",
+    "spm_bank_id": 11,
+    "id": 0
+  },
+  {
+    "bank_name": "HD Bank - NHTMCP phat trien Tp HCM",
+    "spm_bank_id": 12,
+    "id": 0
+  },
+  {
+    "bank_name": "Kien Long bank - NHTMCP Kien Long",
+    "spm_bank_id": 13,
+    "id": 0
+  },
+  {
+    "bank_name": "Lien Viet Post Bank - NH TMCP Buu Dien Lien Viet",
+    "spm_bank_id": 14,
+    "id": 0
+  },
+  {
+    "bank_name": "Maritime Bank - NHTMCP Hang Hai",
+    "spm_bank_id": 15,
+    "id": 0
+  },
+  { "bank_name": "MB - NHTMCP Quan Doi", "spm_bank_id": 16, "id": 0 },
+  { "bank_name": "Nam A Bank - NHTMCP Nam A", "spm_bank_id": 17, "id": 0 },
+  {
+    "bank_name": "National Citizen Bank - NHTMCP Quoc Dan",
+    "spm_bank_id": 18,
+    "id": 0
+  },
+  { "bank_name": "OCB - NHTMCP Phuong Dong", "spm_bank_id": 19, "id": 0 },
+  { "bank_name": "Oceanbank - NHTMCP Dai Duong", "spm_bank_id": 20, "id": 0 },
+  {
+    "bank_name": "PGBank - NHTMCP Xang dau Petrolimex",
+    "spm_bank_id": 21,
+    "id": 0
+  },
+  {
+    "bank_name": "PVcomBank - NH TMCP Dai Chung Viet Nam",
+    "spm_bank_id": 22,
+    "id": 0
+  },
+  {
+    "bank_name": "Sacombank - NHTMCP Sai gon Thuong Tin",
+    "spm_bank_id": 23,
+    "id": 0
+  },
+  {
+    "bank_name": "SaigonBank - NHTMCP Sai Gon Cong Thuong",
+    "spm_bank_id": 24,
+    "id": 0
+  },
+  { "bank_name": "SCB - NHTMCP Sai Gon", "spm_bank_id": 25, "id": 0 },
+  { "bank_name": "Seabank - NHTMCP Dong Nam A", "spm_bank_id": 26, "id": 0 },
+  { "bank_name": "SHB - NHTMCP Sai gon - Ha Noi", "spm_bank_id": 27, "id": 0 },
+  {
+    "bank_name": "Techcombank - NHTMCP Ky thuong VN",
+    "spm_bank_id": 28,
+    "id": 0
+  },
+  {
+    "bank_name": "Tien Phong Bank - NH TMCP Tien Phong",
+    "spm_bank_id": 29,
+    "id": 0
+  },
+  { "bank_name": "VIB - NHTMCP Quoc Te", "spm_bank_id": 30, "id": 0 },
+  {
+    "bank_name": "Viet Capital Bank - NHTMCP Ban Viet",
+    "spm_bank_id": 31,
+    "id": 0
+  },
+  { "bank_name": "VietABank - NHTMCP Viet A", "spm_bank_id": 33, "id": 0 },
+  {
+    "bank_name": "VietBank - NHTMCP Viet Nam Thuong Tin",
+    "spm_bank_id": 34,
+    "id": 0
+  },
+  { "bank_name": "VNCB - NHTMCP Xay dung VN", "spm_bank_id": 35, "id": 0 },
+  {
+    "bank_name": "VP Bank - NHTMCP VN Thinh Vuong",
+    "spm_bank_id": 36,
+    "id": 0
+  },
+  { "bank_name": "ANZ Bank", "spm_bank_id": 38, "id": 0 },
+  {
+    "bank_name": "Bank for Investment and Development of Cambodia (HCM)",
+    "spm_bank_id": 40,
+    "id": 0
+  },
+  {
+    "bank_name": "Bank for Investment and Development of Cambodia (HN)",
+    "spm_bank_id": 41,
+    "id": 0
+  },
+  { "bank_name": "Deutsche Bank", "spm_bank_id": 56, "id": 0 },
+  {
+    "bank_name": "Industrial and Commercial Bank of China",
+    "spm_bank_id": 64,
+    "id": 0
+  },
+  { "bank_name": "BNP Paribas", "spm_bank_id": 46, "id": 0 },
+  { "bank_name": "Bank of China", "spm_bank_id": 42, "id": 0 },
+  { "bank_name": "HANA Bank - Hanoi", "spm_bank_id": 60, "id": 0 },
+  { "bank_name": "HANA Bank - Ho Chi Minh", "spm_bank_id": 90, "id": 0 },
+  { "bank_name": "Citibank (HCM)", "spm_bank_id": 51, "id": 0 },
+  { "bank_name": "Citibank (HN)", "spm_bank_id": 52, "id": 0 },
+  {
+    "bank_name": "Hong Kong and Shanghai Bank (HSBC)",
+    "spm_bank_id": 61,
+    "id": 0
+  },
+  { "bank_name": "Hong Leong Bank Vietnam", "spm_bank_id": 62, "id": 0 },
+  { "bank_name": "Industrial Bank of Korea", "spm_bank_id": 65, "id": 0 },
+  { "bank_name": "Kookmin Bank (HCM)", "spm_bank_id": 67, "id": 0 },
+  { "bank_name": "May Bank (HCM)", "spm_bank_id": 69, "id": 0 },
+  { "bank_name": "May Bank (HN)", "spm_bank_id": 70, "id": 0 },
+  { "bank_name": "Shinhan Bank Vietnam", "spm_bank_id": 75, "id": 0 },
+  { "bank_name": "Standard Chartered Bank", "spm_bank_id": 76, "id": 0 },
+  {
+    "bank_name": "Sumitomo Mitsui Banking Corporation",
+    "spm_bank_id": 77,
+    "id": 0
+  },
+  { "bank_name": "Taipei Fubon Bank", "spm_bank_id": 78, "id": 0 },
+  { "bank_name": "United Overseas Bank", "spm_bank_id": 80, "id": 0 },
+  { "bank_name": "Woori Bank (HCM)", "spm_bank_id": 81, "id": 0 },
+  { "bank_name": "VBSP - NH Chinh sach xa hoi", "spm_bank_id": 83, "id": 0 },
+  { "bank_name": "VDB - NH Phat trien Viet Nam", "spm_bank_id": 84, "id": 0 },
+  { "bank_name": "IVB - NH TNHH Indovina", "spm_bank_id": 85, "id": 0 },
+  { "bank_name": "VID Public Bank", "spm_bank_id": 86, "id": 0 },
+  { "bank_name": "VRB - NH Lien doanh Viet Nga", "spm_bank_id": 88, "id": 0 },
+  { "bank_name": "Siam Commercial Bank", "spm_bank_id": 89, "id": 0 },
+  { "bank_name": "Woori Bank (HN)", "spm_bank_id": 82, "id": 0 },
+  { "bank_name": "Ngan hang Nonghyup CN Ha Noi", "spm_bank_id": 93, "id": 0 },
+  {
+    "bank_name": "Vinasiam Bank - NH Lien doanh Viet Thai",
+    "spm_bank_id": 87,
+    "id": 0
+  },
+  { "bank_name": "NH Cong nghiep Han Quoc", "spm_bank_id": 91, "id": 0 },
+  { "bank_name": "CIMB", "spm_bank_id": 92, "id": 0 }
+]

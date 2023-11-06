@@ -1,0 +1,1 @@
+{"required-bankName":"ต้องระบุชื่อธนาคาร","required-bankBranchName":"ต้องระบุชื่อสาขา","required-accountNumber":"จำเป็นต้องมีเลขที่บัญชี","minLength-accountNumber":"ใช้ได้เฉพาะเลขบัญชีเท่านั้น","required-accountHolder":"ต้องระบุชื่อบัญชี","pattern-accountNumber":"ใช้ได้เฉพาะเลขบัญชีเท่านั้น"}

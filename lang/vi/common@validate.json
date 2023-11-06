@@ -1,0 +1,1 @@
+{"required-bankName":"Tên ngân hàng là bắt buộc","required-bankBranchName":"Chi nhánh ngân hàng là bắt buộc","required-accountNumber":"Số tài khoản là bắt buộc","minLength-accountNumber":"Chưa đạt độ dài tối thiểu","required-accountHolder":"Tên chủ tài khoản là bắt buộc","pattern-accountNumber":"Chứa ký tự không hợp lệ"}

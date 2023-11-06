@@ -1,0 +1,31 @@
+.advanced-cropper-simple-handler {
+  background: currentColor;
+  opacity: 0.95;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+          transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  will-change: height, width; }
+  .advanced-cropper-simple-handler--hover {
+    width: 25px;
+    height: 25px; }
+
+.advanced-cropper-simple-line {
+  border-color: rgba(255, 255, 255, 0.75); }
+  .advanced-cropper-simple-line--hover {
+    border-color: white; }
+
+.advanced-cropper-circle-stencil--moving .advanced-cropper-simple-handler, .advanced-cropper-circle-stencil--resizing .advanced-cropper-simple-handler,
+.advanced-cropper-rectangle-stencil--moving .advanced-cropper-simple-handler,
+.advanced-cropper-rectangle-stencil--resizing .advanced-cropper-simple-handler {
+  opacity: 1; }
+
+.advanced-cropper-stencil-grid {
+  color: rgba(255, 255, 255, 0.7); }

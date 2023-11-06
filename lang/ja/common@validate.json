@@ -1,0 +1,1 @@
+{"required-bankName":"銀行名は必須項目。","required-bankBranchName":"支店名は必須項目です。","required-accountNumber":"口座番号は必須項目です。","minLength-accountNumber":"口座番号は数字のみ使用できます。","required-accountHolder":"口座名義は必須項目です。","pattern-accountNumber":"口座番号は数字のみ使用できます。"}

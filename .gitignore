@@ -1,0 +1,6 @@
+# # next.js
+/.next/
+/out/
+
+# typescript
+*.tsbuildinfo
