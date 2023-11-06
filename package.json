@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "prestart": "yarn && npx rimraf .next",
-    "start": "node .",
+    "start": "next dev",
     "start:windows": "%NVM_HOME%/v%npm_package_engines_node%/yarn && %NVM_HOME%/v%npm_package_engines_node%/node ./modules/i18n && %NVM_HOME%/v%npm_package_engines_node%/node .",
     "start:default": "$NVM_DIR/versions/node/v$npm_package_engines_node/bin/yarn && $NVM_DIR/versions/node/v$npm_package_engines_node/bin/node ./modules/i18n && $NVM_DIR/versions/node/v$npm_package_engines_node/bin/node .",
-    "aws": "node .",
+    "aws": "next start",
     "preaws:build": "npx rimraf .next",
     "aws:build": "next build",
     "lint:js": "eslint --fix",
