@@ -13,12 +13,12 @@ import { ggjDebounce } from '../../../../common/utils'
 
 function SubmitButton() {
   const theme = useTheme()
-  const {t} = useTranslation(nsBankTran)
+  const { t } = useTranslation(nsBankTran)
   const dispatch = useAppDispatch()
   const router = useRouter()
   const u = (router.query?.u || '') as string  // u is url to redirect after submit (skijan/mp/display/skill)
 
-  const {handleSubmit} = useFormContext<IBankInfo>()
+  const { handleSubmit } = useFormContext<IBankInfo>()
 
   const onSubmit = async (data: IBankInfo) => {
     try {
@@ -31,13 +31,12 @@ function SubmitButton() {
         return
       }
       dispatch(actions.setBankInfo([data]))
-      close()
-      toastHandler({message: t('update-success'), type: 'success'})
-      if(u) {
+      toastHandler({ message: t('update-success'), type: 'success' })
+      if (u) {
         window.location.href = u
       }
     } catch (error) {
-      toastHandler({type: 'error'})
+      toastHandler({ type: 'error' })
     } finally {
       loadingOffHandler()
     }
