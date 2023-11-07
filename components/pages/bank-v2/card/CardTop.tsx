@@ -7,7 +7,7 @@ import { IBankInfo } from '../../../../store/bankSlice'
 import { useMemo, useRef } from 'react'
 import { nsBankTran } from 'pages/index'
 import { useTranslation } from 'next-i18next'
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import chip from '../images/chip.png'
 
 function CardTop() {

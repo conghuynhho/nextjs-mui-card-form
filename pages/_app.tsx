@@ -23,7 +23,7 @@ import NProgress from 'nprogress'
 import { useEffect } from 'react'
 import { AppStore, reducerManager, sw } from 'store'
 import { IAuth, actions } from 'store/appSlice'
-import themeConfig from 'theme.config'
+import themeConfig from '../theme.config'
 import { TTimeOut } from '../common/constant'
 import { timeZone } from '../common/date'
 

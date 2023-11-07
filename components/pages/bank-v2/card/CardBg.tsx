@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import cardBg2 from '../images/card-bg.jpg'
 import cardBg from '../images/card-bg-2.jpg'
 import { useFormContext, useWatch } from 'react-hook-form'
@@ -27,6 +27,7 @@ function CardBg() {
             {
               accountType === 1 ? (
                 <Image
+                  priority={true}
                   alt="card-background-2"
                   src={cardBg2}
                   objectFit='cover'
@@ -34,6 +35,7 @@ function CardBg() {
                 />
               ) : (
                 <Image
+                  priority={true}
                   alt="card-background"
                   src={cardBg}
                   objectFit='cover'

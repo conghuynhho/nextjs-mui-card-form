@@ -77,7 +77,6 @@ function CardHolder() {
       </TransitionGroup>
 
     </div>
-
   )
 }
 

@@ -31,7 +31,7 @@ export const getServerSideProps = async (ctx: NextPageContext) => {
   return {
     props: {
       ...props,
-      ...await ggjServerSideTranslations(ctx.req as unknown as NextRequest, [])
+      ...(await ggjServerSideTranslations(ctx.req as unknown as NextRequest, []))
     }
   }
 }
