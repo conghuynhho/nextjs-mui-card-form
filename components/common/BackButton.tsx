@@ -86,14 +86,12 @@ export const BackButton = function (props: BackButtonProps) {
           `}
         >
           {isShowNextLink ? (
-            <Link href={props.to} passHref>
-              <a
-                css={css`
+            <Link href={props.to} passHref
+              css={css`
                   text-decoration: none;
                 `}
-              >
-                <CustomButton />
-              </a>
+            >
+              <CustomButton />
             </Link>
           ) : (
             <CustomButton onClick={props.onClick} />
